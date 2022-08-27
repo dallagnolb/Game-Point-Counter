@@ -1,0 +1,76 @@
+body {
+    //margin: 0;
+    background: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#title {
+    display: flex;
+    justify-content: space-around;
+    width: 175px;
+    font-size: 2.8em;
+    margin: 68px auto 21px auto;
+}
+
+@font-face {
+    src: url("timerFont.ttf");
+    font-family: timer; 
+    }
+
+#myPoint{
+    //margin: 0px;
+}
+
+#pointHome{
+    display: flex;
+    justify-content: space-around;
+    width: 175px;
+    height: 140px;
+    background-color: #080001;
+    margin: 0px auto 26px auto;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: timer; 
+    font-size: 6em;
+    align-items: center;
+}
+
+
+#pointGuest{
+    display: flex;
+    justify-content: space-around;
+    width: 175px;
+    height: 140px;
+    background-color: #080001;
+    margin: 0px auto 26px auto;
+    border: 5px black;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: timer;
+    font-size: 6em;
+    align-items: center;
+}
+
+#add {
+    //display: flex; 
+}
+
+#plus {
+    //display: flex;
+    background: #1B244A;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    //text-align: center;
+    align-items: center;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-family: timer; 
+}
